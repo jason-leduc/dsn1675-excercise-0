@@ -1,0 +1,62 @@
+html { 
+    font-family: Arial, Helvetica, Sans-serif;
+}
+
+Body {
+    background-color: lightgrey;
+} 
+
+h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: Normal; 
+    font-size: 3rem; /* 1rem = 16px */
+    color: red
+}
+
+h2 {
+    color: #F00;
+}
+
+p,
+li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+h1 + p {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+}
+
+strong {
+    font-weight: bold;
+    color: darkred;
+}
+
+
+em {
+    font-style: italic;
+    color: red
+}
+
+dl {
+    border: 1px solid red;
+    /* overflow hidden can be used as a clearfix.
+    It will remind the <dl> to wrap all around its floated children */
+    overflow: hidden;
+}
+
+dt {
+    float: left;
+    clear: left;
+    /* clear tells the element to go below other floated things */
+    width: 8rem;
+}
+
+dd {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+
